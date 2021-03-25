@@ -8,6 +8,9 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 其它重试：spring retry，guava retry等
+ */
 @Slf4j
 public enum RetryUtil {
     INSTANCE;
